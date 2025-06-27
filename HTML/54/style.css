@@ -1,0 +1,116 @@
+h1 {
+
+  background-color: rgb(0, 255, 208);
+  color: blue;
+  text-align: center;
+}
+
+h2 {
+  margin-left: 65px;
+}
+
+.fix {
+
+  position: fixed;
+  top: 0;
+  background-color: bisque;
+
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.pos {
+
+  position: relative;
+  width: 800px;
+  height: 400px;
+  text-align: center;
+}
+
+.pos2 {
+
+  position: absolute;
+  top: 100px;
+
+
+  width: 400px;
+  height: auto;
+}
+
+.main-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  height: auto;
+}
+
+
+@media (width <800px) {
+
+
+  .main-image {
+    width: 400px;
+  }
+}
+
+
+.right {
+
+  background-image: url("backround.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(248, 235, 216)
+}
+
+body {
+
+  background-color: rgb(248, 235, 216)
+}
+
+.conctainer {
+
+  font-size: x-large;
+  font-style: oblique;
+  font-weight: bolder;
+  color: navy;
+  text-align: center;
+  opacity: 0.5;
+
+}
+
+.conctainer:hover {
+
+  opacity: 1;
+  font-size: xx-large;
+  cursor: wait;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Menu {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 30px;
+
+
+}
+
+.good {
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 100px;
+  margin-left: 100px;
+
+}
+
+.imgCls {
+  width: 200px;
+  height: 200px;
+
+}
+
+.video1 {
+  display: inline-block;
+
+}
